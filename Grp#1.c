@@ -4,14 +4,14 @@ int main()
 {
     char DNA;
     int n;
-    printf("      Main Menu\n");
-    printf("1. Perform DNA Frequency\n"); 
-    printf("2. Perform DNA Reverse Complement\n");
-    printf("3. Perform Reverse Palindrome Test\n");
-    printf("4. Perform DNA Pop Count\n");
-    printf("5. Perform Genetic Fibonacci Sequence\n");
-    printf("6. Exit\n");
-    printf("Enter your choice: ");
+    printf("\t\tMain Menu\n");
+    printf("\t1. Perform DNA Frequency\n"); 
+    printf("\t2. Perform DNA Reverse Complement\n");
+    printf("\t3. Perform Reverse Palindrome Test\n");
+    printf("\t4. Perform DNA Pop Count\n");
+    printf("\t5. Perform Genetic Fibonacci Sequence\n");
+    printf("\t6. Exit\n");
+    printf("\tEnter your choice: ");
     scanf("%d", &n);
 
 switch(n){
@@ -55,6 +55,6 @@ default :
         break;
 }
 
-getch();
+getchar();
 return 0;
 }
