@@ -1,18 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
     char DNA;
     int n;
-    printf("\t\t\tMain Menu\n");
-    printf("\t\t1. Perform DNA Frequency\n"); 
-    printf("\t\t2. Perform DNA Reverse Complement\n");
-    printf("\t\t3. Perform Reverse Palindrome Test\n");
-    printf("\t\t4. Perform DNA Pop Count\n");
-    printf("\t\t5. Perform Genetic Fibonacci Sequence\n");
-    printf("\t\t6. Exit\n");
-    printf("\t\tEnter your choice: ");
+    printf("\t\tMain Menu\n");
+    printf("\t1. Perform DNA Frequency\n"); 
+    printf("\t2. Perform DNA Reverse Complement\n");
+    printf("\t3. Perform Reverse Palindrome Test\n");
+    printf("\t4. Perform DNA Pop Count\n");
+    printf("\t5. Perform Genetic Fibonacci Sequence\n");
+    printf("\t6. Exit\n");
+    printf("\tEnter your choice: ");
     scanf("%d", &n);
 
 switch(n){
@@ -56,6 +55,6 @@ default :
         break;
 }
 
-getch();
+getchar();
 return 0;
 }
